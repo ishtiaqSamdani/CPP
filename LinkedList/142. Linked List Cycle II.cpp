@@ -1,5 +1,13 @@
 // https://leetcode.com/problems/linked-list-cycle-ii/
 
+//*************************************************************************************
+/*
+the distance between the (intersection of fast and slow) and start of cycle is same as 
+
+the distance between the head and start of cycle
+*/
+
+//***************************************************************************************
 
 /**
  * Definition for singly-linked list.
