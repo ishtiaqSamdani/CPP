@@ -12,5 +12,5 @@ void showVec(vector<int> a){
 int main(){
     vector<int> ve={1,2,3,4};
     ve.insert(ve.begin()+1,4);//insert(pointer,ele)
-    showVec(ve);
+    showVec(ve);//1 4 2 3 4 
 }
