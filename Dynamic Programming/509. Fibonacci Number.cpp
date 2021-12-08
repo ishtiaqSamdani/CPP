@@ -1,6 +1,17 @@
 // https://leetcode.com/problems/fibonacci-number/
 
+// *********my recursion only Solution************
 
+// class Solution {
+// public:
+//     vector<int> ve;
+//     int fib(int n) {
+//         if(n==0 || n==1){
+//             return n;
+//         }
+//         return fib(n-1)+fib(n-2);
+//     }
+// };
 
 class Solution {
 public:
