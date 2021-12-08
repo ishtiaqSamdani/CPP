@@ -6,9 +6,6 @@ class Solution {
 public:
     vector<int> dp=vector<int>(30,-1);//initializing dp with size 30 and each element will be -1
     
-    
-
-    
     int fib(int n) {
         if(n==0 || n==1){
             return n;
