@@ -8,7 +8,7 @@ using namespace std;
 // 1 2
 // 1 3
 const int N=1e5+10;
-vector<int> gr[N];
+vector<int> gr[N];//adjacency list representation
 int main(){
     int v,e;cin>>v>>e;
 
