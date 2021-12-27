@@ -11,7 +11,9 @@ void Dfs(int vertex){
         // write code if wanna do something reaching childs
         if(visited[it]) continue;
         Dfs(it);
+        // write code if wanna do something after returning from child to parent
     }
+    //code after returning from vertex
 }
 int main(){
     int v,e;cin>>v>>e;
