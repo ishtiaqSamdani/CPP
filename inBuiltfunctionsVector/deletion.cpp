@@ -16,7 +16,7 @@ int main(){
 
     vector<int> ve1={1,2,3,4,5};
 
-    ve1.erase(ve1.end()-1,ve1.end());//to erase last value
+    ve1.erase(ve1.end()-1);//to erase last value
     ve1.erase(ve1.begin());//erase start value
     showVec(ve1);
 
